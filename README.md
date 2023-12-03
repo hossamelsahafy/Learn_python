@@ -1,5 +1,12 @@
-that files and functions that i made by  elzero and codezela channel in youtube here is the link
-https://www.youtube.com/watch?v=xzuguCSizWw
-https://www.youtube.com/watch?v=f3Dg6gxkL-0
-i hope any one will find that repo take alook in that links so he can undesrtand python better
-have anice day:)
+# My Python Project
+
+This repository contains my Python code that I wrote while learning from various YouTube tutorials. 
+
+## References
+
+The following YouTube channels and videos were instrumental in my learning process:
+
+1. [Elzero Web School]
+2. [Codezela]
+
+I highly recommend these resources for anyone looking to understand Python better.
