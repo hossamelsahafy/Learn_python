@@ -4,10 +4,8 @@ import time
 import random
 
 target = "Hello World"
-characters = (
-    string.ascii_letters + " "
-)  # All lowercase and uppercase letters, plus space
-
+# All lowercase and uppercase letters, plus space
+characters = string.ascii_letters + " "
 # For each character in the target string
 for target_index in range(len(target)):
     # Try each possible character
@@ -25,9 +23,9 @@ for target_index in range(len(target)):
                 random.choice(characters) for _ in range(len(target) - target_index - 1)
             )
         )
-        time.sleep(0.1)  # Wait a bit to simulate "hacking"
+        # Wait a bit to simulate "hacking"
+        time.sleep(0.1)
         if char == target[target_index]:
             break
-    print(
-        target[: target_index + 1]
-    )  # Print the found character and move on to the next
+    # Print the found character and move on to the next
+    print(target[: target_index + 1])
