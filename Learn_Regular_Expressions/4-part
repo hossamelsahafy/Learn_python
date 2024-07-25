@@ -1,0 +1,4 @@
+#!/usr/bin/ruby
+# (\d-|\d\)|\d>) (\w+) we can use that regular expression to search in lists
+# if u want to search for web sites
+puts ARGV[0].scan(/^(https?:\/\/)(www\.)?(\w+\.)(net|com|org)/).join

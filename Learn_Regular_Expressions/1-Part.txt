@@ -1,0 +1,16 @@
+# =============================================================================================
+# IN THAT PART WE WILL FIGURE OUT SOME OF MODIFIERS FOR REGULAR EXPRESSION
+# =============================================================================================
+# 0 ---> /s That Will Show WhiteSpace
+# 1 ---> /d That Will Find The Numbers In The Text
+# 2 ---> /D That Will Show Any Thing Not Number
+# 3 ---> /d/d That Will Show Numbers That The User Input Without White Space
+# ====== For Example ======:
+# If We Have Numbers Like 1 1 44  22 6 25 4156
+# The Script Will Show: 44 22 25 4156
+# 4 ---> /w That Will Show The Strings And Numbers Without Special Character Like #@!^&*^*&
+# 5 ---> /W that will show Special Character And WhiteSpaces
+# =============================================================================================
+# So If You Want To Search For Number And That Number There Are A Space Before It & After It:
+# Use This --> /d/w/d
+# =============================================================================================

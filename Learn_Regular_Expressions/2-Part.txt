@@ -1,0 +1,14 @@
+# ===================================================================================
+# IN THAT PART WE WILL DISCUS ABOUT SOME ADVANCED MODIFIERS IN Regular_Expressions
+# ===================================================================================
+# 0 ---> A/w That Will Show Any Text That Start With A Followed By A Letter
+# Note: Increasing The /w Will Increase The Letters That Were Following Letter A
+# 1 ---> /w* That Will Show Any Character With All Letters Or Numbers That Was Followed By
+# 2 ---> /w+ That Will Show Any Character With All Letters Or Numbers That Was Followed By
+# 3 ---> /w? That Will Show The 0 or 1
+# 4 ---> /w{3} That Will Show The String That Contain 3 Letters
+# 5 ---> /w{2,5} That Will Show The String That Contain 2 or 5 Letters Only 
+# 6 ---> /w{2,} That Will Show The String That Contain 2 Letters To Infinity (No Limit)
+# 7 ---> /w{,4} That Will Show The Letters Of String Started With Zero To The 4th Letter Of String
+# ==============================================================================================================
+

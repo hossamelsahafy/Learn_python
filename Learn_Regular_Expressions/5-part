@@ -1,0 +1,13 @@
+#!/usr/bin/ruby
+# [^a-z] While Using That As Regular Expression That Will Show AnyThing Not a To z
+# puts ARGV[0].scan(/[^A-z]+/).join
+# _[A-z] That Will Show Any Letter After _ like Waleed in Hossam_Waleed
+# puts ARGV[0].scan(/_[A-z]+/).join
+# Dont Forget To put Text While Excuting that File
+# You Should Run  The File Like That./5-part Hossam_Waleed@Z%$E%345
+# puts ARGV[0].scan(/\s[A-Z]{2}\s[0-9]{3}\s\w{,6}/).join
+# That Script Will Find: 
+# Two Capital Letters Then
+# 3 Numbers After Space
+# String Contain 6 Letters
+# Now You Can Use That Scripts By Removing "#" And Start Making Your Tests
